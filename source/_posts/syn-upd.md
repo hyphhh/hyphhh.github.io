@@ -1,7 +1,8 @@
 ---
 title: Hexo的同步与更新
 date: 2017-06-04 09:30:57
-tag: 
+tags: [Hexo]
+categories: 其它
 ---
 
 ---
@@ -22,6 +23,9 @@ $ git hyphhh.github.io
 $ npm install hexo
 $ npm install
 $ npm install hexo-deployer-git
+$ npm install hexo-renderer-less --save
+$ npm install hexo-generator-feed --save
+$ npm install hexo-generator-json-content --save
 ```
 
 ---

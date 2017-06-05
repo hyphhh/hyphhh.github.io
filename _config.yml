@@ -3,19 +3,41 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: UJN
-subtitle: hyp
-description: 
-author: Yipeng Huang
+title: 一二三四
+subtitle: 五六
+description: 一个西瓜
+author: hyphhh
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hyphhh.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
 # Directory
 source_dir: source
@@ -63,7 +85,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: indigo-card
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
